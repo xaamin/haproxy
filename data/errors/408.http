@@ -1,0 +1,63 @@
+HTTP/1.0 408 Request Time-out
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <meta name="author" content="Benjamín Martínez Mateos">
+
+        <title>Request timeout </title>
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="shortcut icon" href="./assets/images/touch/favicon.ico" type="image/x-icon">
+        <!-- Optimizely -->
+        <script src="./assets/js/modernizr.js"></script>
+
+        <!--[if lt IE 9]><!-->
+        <script src="./assets/js/html5shiv.min.js"></script>
+        <script src="./assets/js/respond.min.js"></script>
+        <!--<![endif]-->
+    </head>
+
+    <body cz-shortcut-listen="true">
+
+        <div id="viewport">
+
+            <header class="wrapper grey-blue nav-container">
+                <div class="nav-simple row">
+                    <div class="col-12">
+                        <a href="http://www.itnovado.com/" class="logo-link">
+                            <img src="./assets/images/itnovado.png" alt="Itnovado Logo" class="logo-sm" style="">
+                        </a>
+                        <ul class="horizontal-list is-float-right">
+                            <li><a href="http://www.itnovado.com">Home</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div class="wrapper grey-blue landing is-cloud-scene1 error-page" id="error404">
+                <section>
+                    <div class="wrapper col-12" style="min-height: 350px">
+                        <h3>Whoops. Request timeout...</h3>
+                    </div>
+                    <img data-svg-fallback="" src="./assets/images/dino11.svg" class="dino dino__1">
+                    <img class="cloud cloud__1 is-active" src="./assets/images/cloud-05.svg">
+                    <img class="cloud cloud__2 is-active" src="./assets/images/cloud-10.svg">
+                    <img class="cloud cloud__3 is-active" src="./assets/images/cloud-08.svg">
+                    <img class="cloud cloud__4 is-active" src="./assets/images/cloud-09.svg">
+                </section>
+            </div>
+
+            <footer class="footer-copyright">
+                <section>
+                    2015 &nbsp;| &nbsp;<a href="http://www.itnovado.com/" class="monkey-link">Itnovado.</a>
+                </section>
+            </footer>
+
+        </div>
+    </body>
+</html>
