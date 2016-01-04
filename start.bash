@@ -18,5 +18,10 @@ if [[ -f "$OVERRIDE/$CONFIG" ]]; then
   ln -s "$OVERRIDE/$CONFIG" "$CONFIG"
 fi
 
+# HAProxy PID and sock path
+if [[ ! -d "/run/haproxy" ]]; then
+  mkdir -p "/run/haproxy"
+fi
+
 # Run haproxy through Supervisor
 /usr/bin/supervisord -n
